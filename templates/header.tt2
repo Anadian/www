@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>[% GET pagetitle %]</title>
+<link rel="stylesheet" type="text/css" href"basic.css">
+</head>
+<body> 
