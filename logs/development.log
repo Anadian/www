@@ -1,0 +1,440 @@
+[37909] debug @0.068858> [hit #1]output: <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta name="description" content="Description">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="">
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+</head>
+<body> 
+
+$VAR1 = {
+          'name' => 'fuck'
+        };
+
+</body>
+</html>
+
+$VAR1 = {
+          'name' => 'fuck'
+        }; in ./main.pl l. 47
+[37909] debug @0.000576> [hit #2]In add in ./main.pl l. 18
+[37909] error @0.017644> [hit #2]request to GET /add crashed: MongoDB::SelectionError: No writable server available.  MongoDB server status:
+Topology type: Single; Member status:
+  localhost:27017 (type: Unknown, error: MongoDB::NetworkError: Could not connect to 'localhost:27017': Connection refused ) in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[57463] debug @0.000764> [hit #1]In add in ./main.pl l. 18
+[57463] error @0.036332> [hit #1]request to GET /add crashed: MongoDB::SelectionError: No writable server available.  MongoDB server status:
+Topology type: Single; Member status:
+  localhost:27017 (type: Unknown, error: MongoDB::NetworkError: Could not connect to 'localhost:27017': Connection refused ) in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[57899] debug @0.192270> [hit #1]output: <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta name="description" content="Description">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="">
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+</head>
+<body> 
+
+$VAR1 = {
+          'name' => undef
+        };
+
+</body>
+</html>
+
+$VAR1 = {
+          'name' => undef
+        }; in ./main.pl l. 47
+[57899] debug @0.000593> [hit #2]In add in ./main.pl l. 18
+[58283] debug @0.000641> [hit #1]In add in ./main.pl l. 17
+[58472] debug @0.000643> [hit #1]In add in ./main.pl l. 17
+[58472] debug @0.000634> [hit #2]In see in ./main.pl l. 30
+[58472] debug @0.000634> [hit #5]In see in ./main.pl l. 30
+[58610] debug @0.001004> [hit #1]In see in ./main.pl l. 30
+[58698] debug @0.000718> [hit #1]In see in ./main.pl l. 30
+[58893] debug @0.000715> [hit #1]In see in ./main.pl l. 30
+[58893] debug @0.000659> [hit #2]In add in ./main.pl l. 17
+[58893] debug @0.000738> [hit #3]In see in ./main.pl l. 30
+[58999] debug @0.000807> [hit #1]In see in ./main.pl l. 30
+[91925] debug @0.175634> [hit #1]output: <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta name="description" content="Description">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="">
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+</head>
+<body> 
+
+$VAR1 = {
+          'name' => undef
+        };
+
+</body>
+</html>
+
+$VAR1 = {
+          'name' => undef
+        }; in ./main.pl l. 50
+[91925] debug @0.000719> [hit #2]In see in ./main.pl l. 30
+[92158] debug @0.000837> [hit #1]In see in ./main.pl l. 30
+[92158] debug @0.010567> [hit #1]58099583d0b152e60d20e811: $VAR1 = {}; in ./main.pl l. 39
+[92158] debug @0.000618> [hit #2]In add in ./main.pl l. 17
+[92158] debug @0.000632> [hit #3]In see in ./main.pl l. 30
+[92158] debug @0.004060> [hit #3]580a313cd0b15267fe5d1cf1: $VAR1 = {}; in ./main.pl l. 39
+[92628] debug @0.000830> [hit #1]In see in ./main.pl l. 30
+[92628] debug @0.009783> [hit #1]new: $VAR1 = {}; in ./main.pl l. 39
+[92821] debug @0.000795> [hit #1]In see in ./main.pl l. 30
+[92821] debug @0.011549> [hit #1]new: $VAR1 = {
+          'HASH(0x7f8d8c9d3ea0)' => undef
+        }; in ./main.pl l. 39
+[92942] debug @0.000766> [hit #1]In see in ./main.pl l. 30
+[92942] debug @0.009620> [hit #1]new: $VAR1 = {
+          'HASH(0x7fdb97ba9da0)' => undef
+        }; in ./main.pl l. 40
+[92942] debug @0.000651> [hit #2]In see in ./main.pl l. 30
+[92942] debug @0.002616> [hit #2]'new': $VAR1 = {}; in ./main.pl l. 40
+[92942] debug @0.000719> [hit #3]In see in ./main.pl l. 30
+[92942] debug @0.003974> [hit #3]"new": $VAR1 = {}; in ./main.pl l. 40
+[92942] debug @0.000614> [hit #4]In see in ./main.pl l. 30
+[92942] debug @0.003499> [hit #4]new: $VAR1 = {
+          'HASH(0x7fdb97c35b70)' => undef
+        }; in ./main.pl l. 40
+[93121] debug @0.000675> [hit #1]In see in ./main.pl l. 30
+[93121] debug @0.010093> [hit #1]new: HASH(0x7fb6952b23a0) in ./main.pl l. 40
+[93121] debug @0.000709> [hit #2]In see in ./main.pl l. 30
+[93121] debug @0.002955> [hit #2]new2:  in ./main.pl l. 40
+[93121] debug @0.000613> [hit #3]In see in ./main.pl l. 30
+[93121] debug @0.002595> [hit #3]new: HASH(0x7fb6946a9e58) in ./main.pl l. 40
+[93857] debug @0.000712> [hit #1]In add in ./main.pl l. 17
+[93857] debug @0.000599> [hit #2]In see in ./main.pl l. 30
+[93857] debug @0.002650> [hit #2]_id:  in ./main.pl l. 40
+[95660] debug @0.000751> [hit #1]In see in ./main.pl l. 30
+[95660] debug @0.002635> [hit #1] :  in ./main.pl l. 51
+[95660] debug @0.001571> [hit #2]output: <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta name="description" content="Description">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="">
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+</head>
+<body> 
+
+$VAR1 = {
+          'q' => 'new',
+          'name' => 'see'
+        };
+
+</body>
+</html>
+
+$VAR1 = {
+          'q' => 'new',
+          'name' => 'see'
+        }; in ./main.pl l. 63
+[95660] debug @0.000727> [hit #3]In see in ./main.pl l. 30
+[95660] debug @0.027749> [hit #3]new : HASH(0x7fcd450bd488),  new 1/8 HASH(0x7fcd450bd488)  %result in ./main.pl l. 51
+[95660] debug @0.000577> [hit #4]In add in ./main.pl l. 17
+[95660] debug @0.000742> [hit #5]In see in ./main.pl l. 30
+[95660] debug @0.003549> [hit #5] :  in ./main.pl l. 51
+[95660] debug @0.000910> [hit #6]In see in ./main.pl l. 30
+[95660] debug @0.007493> [hit #6]test : HASH(0x7fcd450b1cb8),  test 1/8 HASH(0x7fcd450b1cb8)  %result in ./main.pl l. 51
+[95951] debug @0.000825> [hit #1]In see in ./main.pl l. 30
+[95951] debug @0.010450> [hit #1]test : keys: HASH(0x7fb695cdd1c0), id: , q: test result1: 1/8 result2: HASH(0x7fb695cdd1c0)  result3: %result in ./main.pl l. 51
+[95951] debug @0.000678> [hit #2]In see in ./main.pl l. 30
+[95951] debug @0.007572> [hit #2] :  in ./main.pl l. 51
+[96143] debug @0.001613> [hit #1]In see in ./main.pl l. 30
+[96143] debug @0.106609> [hit #1] 58099583d0b152e60d20e811:  in ./main.pl l. 52
+[96143] debug @0.000651> [hit #2]In see in ./main.pl l. 30
+[96143] debug @0.002908> [hit #2]test : keys: HASH(0x7fe6a5145038), id: , q: test, result1: 1/8, result2: HASH(0x7fe6a5145038) , result3: %result, result4: $VAR1 = {
+          'HASH(0x7fe6a5145038)' => undef
+        }; in ./main.pl l. 52
+[96143] debug @0.001638> [hit #3]output: <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta name="description" content="Description">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="">
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+</head>
+<body> 
+
+$VAR1 = {
+          'name' => undef
+        };
+
+</body>
+</html>
+
+$VAR1 = {
+          'name' => undef
+        }; in ./main.pl l. 64
+[3247] debug @0.001179> [hit #1]In see in ./main.pl l. 31
+[3247] debug @0.569216> [hit #1] 58099583d0b152e60d20e811:  in ./main.pl l. 61
+[3247] debug @0.000648> [hit #2]In see in ./main.pl l. 31
+[3247] debug @0.002199> [hit #2] 58099583d0b152e60d20e811:  in ./main.pl l. 61
+[3247] debug @0.000662> [hit #3]In see in ./main.pl l. 31
+[3247] error @0.094497> [hit #3]request to GET /see/ crashed: Can't call method "keys" on unblessed reference at ./main.pl line 52. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[3395] debug @0.000828> [hit #1]In see in ./main.pl l. 31
+[3395] error @0.150695> [hit #1]request to GET /see/ crashed: Can't call method "keys" on unblessed reference at ./main.pl line 51. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[3395] debug @0.000697> [hit #3]In see in ./main.pl l. 31
+[3395] error @0.003757> [hit #3]request to GET /see/ crashed: Can't call method "keys" on unblessed reference at ./main.pl line 51. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[3395] debug @0.000686> [hit #5]In see in ./main.pl l. 31
+[3395] error @0.004140> [hit #5]request to GET /see/58099583d0b152e60d20e811 crashed: Can't call method "keys" on an undefined value at ./main.pl line 51. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[3395] debug @0.000897> [hit #7]In see in ./main.pl l. 31
+[3395] error @0.003317> [hit #7]request to GET /see/58099583d0b152e60d20e811 crashed: Can't call method "keys" on an undefined value at ./main.pl line 51. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[3652] debug @0.000878> [hit #1]In see in ./main.pl l. 31
+[3652] error @0.170990> [hit #1]request to GET /see/58099583d0b152e60d20e811 crashed: Can't locate object method "keys" via package "Tie::IxHash" at ./main.pl line 51. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[3652] debug @0.203892> [hit #3]output: <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta name="description" content="Description">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="">
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+</head>
+<body> 
+
+$VAR1 = {
+          'name' => undef
+        };
+
+</body>
+</html>
+
+$VAR1 = {
+          'name' => undef
+        }; in ./main.pl l. 71
+[3652] debug @0.000686> [hit #4]In add in ./main.pl l. 18
+[3652] debug @0.000631> [hit #5]In see in ./main.pl l. 31
+[3652] error @0.031268> [hit #5]request to GET /see/ crashed: Can't locate object method "keys" via package "Tie::IxHash" at ./main.pl line 51. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[3652] debug @0.001624> [hit #7]output: <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta name="description" content="Description">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="">
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+</head>
+<body> 
+
+$VAR1 = {
+          'q' => 'a',
+          'name' => 'see'
+        };
+
+</body>
+</html>
+
+$VAR1 = {
+          'q' => 'a',
+          'name' => 'see'
+        }; in ./main.pl l. 71
+[4197] debug @0.229399> [hit #1]output: <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta name="description" content="Description">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="">
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+</head>
+<body> 
+
+$VAR1 = {
+          'q' => 'a',
+          'name' => 'see'
+        };
+
+</body>
+</html>
+
+$VAR1 = {
+          'q' => 'a',
+          'name' => 'see'
+        }; in ./main.pl l. 70
+[4197] debug @0.000707> [hit #2]In see in ./main.pl l. 31
+[4197] debug @0.016767> [hit #2]$VAR1 = bless( [
+                 {
+                   'HASH(0x7f84178e1bc8)' => 0
+                 },
+                 [
+                   {
+                     'l' => 'n',
+                     '_id' => bless( {
+                                     'value' => '580990fed0b152e22b22d521'
+                                   }, 'MongoDB::OID' )
+                   }
+                 ],
+                 [
+                   undef
+                 ],
+                 0
+               ], 'Tie::IxHash' ); in ./main.pl l. 52
+[4197] debug @0.017026> [hit #2]a : keys: HASH(0x7f84178e1e98), id: , q: a, result1: 1/8, result2: HASH(0x7f84178e1e98) , result3: %result, result4: $VAR1 = {
+          'HASH(0x7f84178e1e98)' => undef
+        }; in ./main.pl l. 58
+[5315] debug @0.001019> [hit #1]In see in ./main.pl l. 31
+[5315] debug @0.191084> [hit #1]$VAR1 = bless( [
+                 {
+                   'HASH(0x7fe77d92b030)' => 0
+                 },
+                 [
+                   {
+                     '_id' => bless( {
+                                     'value' => '580990fed0b152e22b22d521'
+                                   }, 'MongoDB::OID' ),
+                     'l' => 'n'
+                   }
+                 ],
+                 [
+                   undef
+                 ],
+                 0
+               ], 'Tie::IxHash' ); in ./main.pl l. 52
+[5315] debug @0.191382> [hit #1]a : keys: l _id, id: , q: a, result1: 2/8, result2: l n _id 580990fed0b152e22b22d521, result3: %result, result4: $VAR1 = {
+          'l' => 'n',
+          '_id' => bless( {
+                          'value' => '580990fed0b152e22b22d521'
+                        }, 'MongoDB::OID' )
+        }; in ./main.pl l. 58
+[5315] debug @0.000664> [hit #2]In add in ./main.pl l. 18
+[5315] debug @0.000580> [hit #3]In add in ./main.pl l. 18
+[5315] debug @0.002059> [hit #4]In see in ./main.pl l. 31
+[5315] debug @0.004797> [hit #4]$VAR1 = bless( [
+                 {
+                   'HASH(0x7fe77dfdb0f0)' => 0
+                 },
+                 [
+                   {
+                     'l' => 'n',
+                     '_id' => bless( {
+                                     'value' => '580990fed0b152e22b22d521'
+                                   }, 'MongoDB::OID' )
+                   }
+                 ],
+                 [
+                   undef
+                 ],
+                 0
+               ], 'Tie::IxHash' ); in ./main.pl l. 52
+[5315] debug @0.005022> [hit #4]a : keys: _id l, id: , q: a, result1: 2/8, result2: _id 580990fed0b152e22b22d521 l n, result3: %result, result4: $VAR1 = {
+          '_id' => bless( {
+                          'value' => '580990fed0b152e22b22d521'
+                        }, 'MongoDB::OID' ),
+          'l' => 'n'
+        }; in ./main.pl l. 58
+[5315] debug @0.003642> [hit #5]In see in ./main.pl l. 31
+[5315] debug @0.112360> [hit #5]$VAR1 = undef; in ./main.pl l. 52
+[5315] debug @0.112680> [hit #5] :  in ./main.pl l. 58
+[5315] debug @0.000791> [hit #6]In add in ./main.pl l. 18
+[5315] debug @0.000727> [hit #7]In see in ./main.pl l. 31
+[5315] error @0.003127> [hit #7]request to GET /see/580c3f20d0b15214c372b8e3 crashed: Can't use an undefined value as a HASH reference at ./main.pl line 38. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[5315] debug @0.000742> [hit #9]In see in ./main.pl l. 31
+[5315] debug @0.004160> [hit #9]$VAR1 = bless( [
+                 {
+                   'HASH(0x7fe77dfdaf40)' => 0
+                 },
+                 [
+                   {
+                     '_id' => bless( {
+                                     'value' => '580990fed0b152e22b22d521'
+                                   }, 'MongoDB::OID' ),
+                     'l' => 'n'
+                   }
+                 ],
+                 [
+                   undef
+                 ],
+                 0
+               ], 'Tie::IxHash' ); in ./main.pl l. 52
+[5315] debug @0.004408> [hit #9]another : keys: l _id, id: , q: another, result1: 2/8, result2: l n _id 580990fed0b152e22b22d521, result3: %result, result4: $VAR1 = {
+          'l' => 'n',
+          '_id' => bless( {
+                          'value' => '580990fed0b152e22b22d521'
+                        }, 'MongoDB::OID' )
+        }; in ./main.pl l. 58
+[5958] debug @0.000880> [hit #1]In see in ./main.pl l. 31
+[5958] error @0.010412> [hit #1]request to GET /see/ crashed: Can't call method "result" on unblessed reference at ./main.pl line 39. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[6013] debug @0.001128> [hit #1]In see in ./main.pl l. 31
+[6013] error @0.009780> [hit #1]request to GET /see/ crashed: Can't call method "result" on unblessed reference at ./main.pl line 39. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[6164] debug @0.001641> [hit #1]In see in ./main.pl l. 31
+[6164] error @0.011490> [hit #1]request to GET /see/ crashed: Can't call method "result" on unblessed reference at ./main.pl line 41. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[6218] debug @0.000842> [hit #1]In see in ./main.pl l. 31
+[6218] error @0.011895> [hit #1]request to GET /see/ crashed: Can't call method "result" on unblessed reference at ./main.pl line 41. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[6218] debug @0.000720> [hit #3]In add in ./main.pl l. 18
+[6218] debug @0.000828> [hit #4]In see in ./main.pl l. 31
+[6218] error @0.005011> [hit #4]request to GET /see/ crashed: Can't call method "result" on unblessed reference at ./main.pl line 41. in /usr/local/Cellar/perl/5.24.0_1/lib/perl5/site_perl/5.24.0/Dancer/Handler.pm l. 98
+[6340] debug @0.000799> [hit #1]In see in ./main.pl l. 31
+[6340] debug @0.014827> [hit #1]w : keys: _id l, id: , q: w, result1: 2/8, result2: _id 580990fed0b152e22b22d521 l n, result4: $VAR1 = {
+          '_id' => bless( {
+                          'value' => '580990fed0b152e22b22d521'
+                        }, 'MongoDB::OID' ),
+          'l' => 'n'
+        };
+ result: otherresult in ./main.pl l. 55
+[6340] debug @0.000657> [hit #2]In see in ./main.pl l. 31
+[6340] debug @0.003167> [hit #2]q : keys: _id l, id: , q: q, result1: 2/8, result2: _id 580990fed0b152e22b22d521 l n, result4: $VAR1 = {
+          '_id' => bless( {
+                          'value' => '580990fed0b152e22b22d521'
+                        }, 'MongoDB::OID' ),
+          'l' => 'n'
+        };
+ result: otherresult in ./main.pl l. 55

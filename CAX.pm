@@ -1,4 +1,4 @@
-#!/usrbin/perl
+#!/usr/local/bin/perl
 package CAX;
 use strict;
 use warnings;
