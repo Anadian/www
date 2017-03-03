@@ -1,0 +1,12 @@
+[% #welcome.tt %]
+<div id="WelcomeMessage">
+	<h1>Hey, welcome to the site!</h2>
+	<div id="WelcomeMenu" class="pure-menu">
+		<span class="pure-menu-heading">There are a couple of things to do, like:</span>
+		<ul id="WelcomeList" class="pure-menu-list">
+			<li class="pure-menu-item"><a href="/user/signup" class="pure-menu-link">Create an account</a></li>
+			<li class="pure-menu-item"><a href="/message/write" class="pure-menu-link">Write an anonymous message</a></li>
+			<li class="pure-menu-item"><a href="/message/list" class="pure-menu-link">View a list of currently stored messages</a></li>
+		</ul>
+	</div>
+</div> [% RETURN %]

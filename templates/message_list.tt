@@ -1,0 +1,9 @@
+[% #message_list.tt %]
+<div id="MessageMenu" class="pure-menu">
+	<span class="pure-menu-heading">Messages by title:</span>
+	<ol id="MessageList" type="A" class="pure-menu-list">
+[% FOREACH entry IN rows %]
+		<li id="[% GET entry.id %]" class="pure-menu-item"><a href="/message/view/[% GET entry.key %]" class="pure-menu-link">[% GET entry.key %]</a></li>
+[% END %]
+	</ol>
+</div>[% RETURN %]

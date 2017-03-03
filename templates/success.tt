@@ -1,0 +1,6 @@
+[% #success.tt %]
+<div id="ResultSuccess">
+<h1>[% GET thing %], [% GET name %], created successfully:</h1><br>
+<h3>[% GET status %]</h3><br>
+<h2>Check it out <a href="[% GET url %]">here.</a></h2>
+</div>[% RETURN %]

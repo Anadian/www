@@ -1,0 +1,9 @@
+[% #user_signup.tt %]
+<div id="UserSignup">
+	<form id="UserSignupForm" class="pure-form pure-formed-stacked" action="/user/create" method="post">
+		<input id="UserNameInput" type="username" name="username" placeholder="Username">
+		<input id="UserPasswordInput" type="password" name="userpassword" placeholder="Password">
+		<input id="UserEmailInput" type="email" name="useremail" placeholder="Email">
+		<button id="UserSignupSubmitButton" type="submit" class="pure-button pure-button-primary">Submit</button>
+	</form>
+</div>[% RETURN %]

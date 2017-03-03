@@ -1,0 +1,15 @@
+<div id="accountinfo">
+[% IF (signedin == 1) %]
+	<span id="usergreeting">Hello, [% GET username %].</span>
+	<a href="/user/signout">Signout?</a>
+[% ELSE %]
+	<form id="signinform" class="pure-form" action="/user/signin" method="post">
+		<fieldset>
+			<input id="username" name="username" type="username" placeholder="Username">
+			<input id="password" name="userpassword" type="password" placeholder="Password">
+			<button id="signinbutton" type="submit" class="pure-button pure-button-primary">Sign in</button>
+		</fieldset>
+	</form>
+	<a href="/user/signup">Create account?</a>
+[% END %]
+</div>[% RETURN %]

@@ -1,4 +1,5 @@
 [% PROCESS header.tt %]
-[% GET pagebody %]
+[% PROCESS topbar.tt %]
+[% GET body %]
 [% PROCESS footer.tt %]
 [% RETURN %]

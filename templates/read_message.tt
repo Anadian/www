@@ -1,0 +1,4 @@
+<div id="read-message">
+	[% GET messagetitle %]
+	[% GET messagebody %]
+</div>[% RETURN %]

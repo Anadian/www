@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>[% GET pagetitle %]</title>
-<meta name="description" content="[% GET pagedescription %]">
-<meta name="keywords" content="[% GET pagekeywords %]">
-<link rel="shortcut icon" href="[% GET pageicon %]">
+<title>[% GET title %] | [% GET type %] | [% GET site.name %]</title>
+<meta name="description" content="[% GET description %] | [% GET site.description %]">
+<meta name="keywords" content="[% GET keywords %] | [% GET site.keywords %]">
+<link rel="shortcut icon" href="[% GET site.icon %]">
 <!-- Responsive and mobile friendly stuff -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Stylesheets -->
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
 </head>
 <body> 
 [% RETURN %]

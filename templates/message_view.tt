@@ -1,0 +1,6 @@
+[% #message_view %]
+<div id="Message_View">
+<h1 id="MessageTitle">[% GET title %]</h1>
+<h2 id="MessageMetaInfo">by [% GET author %] on [% GET creationdate %]</h2>
+<p id="MessageBody">[% GET body %]</p>
+</div>[% RETURN %]

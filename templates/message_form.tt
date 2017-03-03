@@ -1,0 +1,6 @@
+<form id="message-form" class="pure-form pure-form-stacked" action="/message/new" method="post">
+	<input id="title" name="messagetitle" type="text" placeholder="Title here...">
+	<input id="message" name="messagebody" type="text" placeholder="Message here...">
+	<input id="signature" name="messageauthor" type="text" placeholder="Sign your name (optional)">
+	<button id="submit-button" type="submit" class="pure-button pure-button-primary">Submit</button>
+</form>[% RETURN %]

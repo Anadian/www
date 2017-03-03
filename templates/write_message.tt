@@ -1,0 +1,3 @@
+<div id="write-message">
+[% PROCESS message_form.tt %]
+</div>[% RETURN %]

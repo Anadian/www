@@ -1,0 +1,7 @@
+<div id="navigation-menu" class="pure-menu pure-menu-horizontal">
+		<a href="/" class="pure-menu-heading pure-menu-link">Site:</a>
+		<ul id="navbar-entries" class="pure-menu-list">
+			<li id="navbar-list" class="pure-menu-item"><a href="/message/list" class="pure-menu-link">List</a></li>
+			<li id="navbar-write" class="pure-menu-item"><a href="/message/write" class="pure-menu-link">Write</a></li>
+		</ul>
+</div>[% RETURN %]

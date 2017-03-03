@@ -1,0 +1,4 @@
+[% #message/view %]
+<h1 id="MessageTitle">[% GET message.title %]</h1>
+<h2 id="MessageMetaInfo">by [% GET message.author %] on [% GET message.creationdate %]</h2>
+<p id="MessageBody">[% GET message.body %]</p>[% RETURN %]

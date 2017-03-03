@@ -1,0 +1,6 @@
+[% #failure.tt %]
+<div id="ResultFailure">
+<h1>Something went wrong when creating, [% GET thing %], [% GET name %]:</h1><br>
+<h2>[% GET status %]</h2><br>
+<h3>Try again <a href="[% GET url %]">here.</a></h3>
+</div> [% RETURN %]
