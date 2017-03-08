@@ -23,8 +23,8 @@ use Data::Dumper;
 
 my $couchdburl = $ARGV[0];
 
-use PBKDF2::Tiny;
-use Crypt::PBKDF2;
+#use pbkdf2::tiny;
+#use Crypt::PBKDF2;
 
 use LWP;
 my $useragent = LWP::UserAgent->new();
