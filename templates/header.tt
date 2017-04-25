@@ -5,13 +5,18 @@
 <meta name="description" content="[% GET description %] | [% GET site.description %]">
 <meta name="keywords" content="[% GET keywords %] | [% GET site.keywords %]">
 <link rel="shortcut icon" href="[% GET site.icon %]">
+[% UNLESS mobile == 0 %]
 <!-- Responsive and mobile friendly stuff -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+[% END %]
+[% UNLESS css == 0 %]
 <!-- Stylesheets -->
 <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+[% END %]
+[% UNLESS js == 0 %]
+[% END %]
 </head>
-<body> 
-[% RETURN %]
+<body>[% RETURN %]

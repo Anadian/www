@@ -5,5 +5,4 @@
 	<span id="account-info-unit" class="pure-u-4-5">
 [% PROCESS account_info.tt %]
 	</span>
-</div>
-[% RETURN %]
+</div>[% RETURN %]

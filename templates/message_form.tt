@@ -1,6 +1,9 @@
 <form id="message-form" class="pure-form pure-form-stacked" action="/message/new" method="post">
-	<input id="title" name="messagetitle" type="text" placeholder="Title here...">
-	<input id="message" name="messagebody" type="text" placeholder="Message here...">
-	<input id="signature" name="messageauthor" type="text" placeholder="Sign your name (optional)">
+	<input id="message-recipient" name="messagerecipient" type="email" placeholder="Recipient...">
+	<input id="message-title" name="messagetitle" type="text" placeholder="Title here...">
+	<input id="message-body" name="messagebody" type="text" placeholder="Message here...">
+	<input id="message-tags" name="messagekeywords" type="text" placehodler="Tags...">
+	<input id="message-signature" name="messageauthor" type="text" placeholder="Sign your name (optional)">
+	<input id="message-delivery-time" name="messagedeliverytime" type="time" placeholder="
 	<button id="submit-button" type="submit" class="pure-button pure-button-primary">Submit</button>
 </form>[% RETURN %]
