@@ -1,0 +1,156 @@
+//html cheatsheet
+Everything supports id and class
+//<!DOCTYPE html>
+<html>:
+	lang, //lang="en"
+	<head>:
+		<meta>:
+			charset, //charset="utf-8"
+		<title>,
+		<link>:
+			rel,
+			href,
+	<body>:
+			hidden,
+		<h[1-6]>,
+		<p>,
+		<span>,
+		<div>,
+		<ul>:
+			<li>,
+		<ol>:
+			<li>,
+		<dl>:
+			<dt>,
+			<dd>,
+		<a>:
+			href,
+			download,
+		<img>:
+			src,
+			alt,
+			width,
+			height,
+			longdesc,
+			<figure>,
+		<form>:
+				name, //available to all
+				value, //not textarea
+				autofocus, //all
+				disabled, //not sent
+			<input>:
+				readonly, //not modifiably by user; still selectable though.
+				placeholder,
+				size, //dimensions
+				length, //length in characters
+				type: 
+					text,
+					email,
+					password,
+					url,
+					search,
+					tel,
+					checkbox,
+					radio,
+					submit,
+					reset,
+					button,
+					number,
+					range,
+					datetime-local,
+					date,
+					month,
+					week,
+					time,
+					color,
+					file,
+					hidden,
+					image,
+				multiple, //to be used with type="email" to allow the user to enter multiple emails
+				checked, //used with type="checkbox" or type="radio"
+				min, //used with type="number" or type="range"
+				max, //used with type="number" or type="range"
+				step, //use with type="number" or type="range"
+				src,/* used with type="image"
+				alt,
+				width,
+				height,*/
+			<textarea>: //<textarea> Default value text </textarea> Can't use value because of structure
+				readonly, //not modifiably by user; still selectable though.
+				size, //dimensions
+				length, //length in characters
+				rows,
+				cols,
+				wrap:
+					soft,
+					hard,
+			<select>:
+				name,
+				multiple,
+				<option>, //<option>text</option> has no attributes 
+				<optgroup>:
+					<option>,
+			<datalist>:
+				<option>,
+			<button>:
+				type:
+					submit,
+					reset,
+					button, //anonymous button
+			<progress>:
+				max,
+			<meter>:
+				min,
+				low,
+				optimum,
+				high,
+				max,
+		<script />:
+			async,
+			integrity,
+			defer,
+			type,
+			src,
+		<blockquote>:
+			cite,
+		<q>:
+			cite,
+		<code>,
+		<pre>,
+		<var>,
+		<kbd>,
+		<samp>,
+		<abbr>: //abbreviation
+			title,
+		<address>,
+		<time>:
+			datetime,
+		<sup>,
+		<sub>,
+		<em>,
+		<strong>,
+		<header>,
+		<nav>,
+		<main>,
+		<article>,
+		<aside>,
+		<section>,
+		<footer>,
+/*<label for="myFruit">What is your favorite fruit? (With fallback)</label>
+<input type="text" id="myFruit" name="fruit" list="fruitList">
+    
+<datalist id="fruitList">
+  <label for="suggestion">or pick a fruit</label>
+  <select id="suggestion" name="altFruit">
+    <option>Apple</option>
+    <option>Banana</option>
+    <option>Blackberry</option>
+    <option>Blueberry</option>
+    <option>Lemon</option>
+    <option>Lychee</option>
+    <option>Peach</option>
+    <option>Pear</option>
+  </select>
+</datalist>*/
+		
+	
